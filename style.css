@@ -1,10 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
+    /* box-sizing: boder-box; */
 }
 
 h1 {
-    font-weight: 2500;
     font-size: 70px;
     line-height: 20px;
 }
@@ -19,30 +19,31 @@ h1 {
 }
 
 .white-color {
-    color: rgb(84, 84, 84);
+    color: rgb(116, 116, 116);
 }
 
 
 .flexible-container {
     width: 100%;
-    display: inline-flex;
-    margin-bottom: 150px;
+    display: flex;
+        margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
 }
 
 .half-width img {
     width: 100%;
+    margin-left: -75px;
+        margin-top: -55px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(rgba(242, 147, 69, 0.741), rgb(255, 38, 0));
     padding: 25px 40px;
-    border-radius: 25px;
+    border-radius: 45px;
     color: white;
     font-weight: 400;
 }
@@ -80,10 +81,46 @@ footer {
 }
 
 .small-image {
+    align-items: center;
+        display: flex;
+        flex-direction: column;
     margin-top: 25px;
     width: 95%;
 }
 
-#female {
+.text {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.mascular {
+    line-height: 5px;
+}
+
+.dummy {
+    padding-left: 25%;
     width: 50%;
+}
+
+.female {
+    width: 50%;
+    padding-left: 25%;
+    }
+    
+    #side {
+        display: inline-flex;
+    }
+    
+    .full-stack-developer {
+        margin-left: 18%;
+        margin-bottom: 5%;
+        padding-left: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 25px;
+        box-shadow: 10px 10px 50px gray;
+    }
+    
+    .space {
+        padding: 50px;
 }
